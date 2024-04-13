@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React-ITVDN/static/css/main.7acaea2f.css",
-    "main.js": "/React-ITVDN/static/js/main.07d3183d.js",
+    "main.css": "/React-ITVDN/static/css/main.ea71c8f7.css",
+    "main.js": "/React-ITVDN/static/js/main.b40928de.js",
     "index.html": "/React-ITVDN/index.html",
-    "main.7acaea2f.css.map": "/React-ITVDN/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/React-ITVDN/static/js/main.07d3183d.js.map"
+    "main.ea71c8f7.css.map": "/React-ITVDN/static/css/main.ea71c8f7.css.map",
+    "main.b40928de.js.map": "/React-ITVDN/static/js/main.b40928de.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.ea71c8f7.css",
+    "static/js/main.b40928de.js"
   ]
 }
