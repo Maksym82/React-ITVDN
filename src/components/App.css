@@ -1,12 +1,23 @@
-/* h1 {
-  height: 100vh;
+h1 {
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 40px;
   color: #0920a0;
-} */
+}
 
 .green-text {
   color: green;
+}
+
+p {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
 }
