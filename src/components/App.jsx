@@ -1,21 +1,26 @@
-import React from 'react';
 import './App.css';
-import logo from '../image/logo192.png';
+import Parent from '../components/Parent';
 
 export const App = () => {
 
-  const parag = React.createElement('p', {}, 'text about home work');
-  const block = React.createElement('div', {}, parag);
- 
-    return (
+  let user = {
+    name: 'John',
+    surname: 'Smith'
+  }
+
+  let x = 1;
+  let y = [1, 2, 3, 4, 5];
+
+  return (
     <>
-      
-      <h1 id={123} style={{ fontSize: 45, color: 'green', background: 'brown' }}>Title</h1>
-      {block}
-      <img src={logo} className='logo' alt="" />
-              
+      <h1>Что такое React?</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi debitis
+        rerum quaerat harum accusantium cupiditate nemo, quibusdam consequuntur
+        dignissimos vero.
+      </p>
+
+      <Parent data={user} forX={x} forY={y} />
     </>
   );
 };
-
-
